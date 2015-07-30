@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/yl_layout_page_tip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yl_background"
+    android:clickable="true">
+
+    <cn.youlin.platform.ui.wiget.YlTextView
+        android:id="@+id/yl_tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textColor="@color/c_5"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/yl_layout_img_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <cn.youlin.platform.ui.wiget.YlImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg_reload"/>
+
+        <cn.youlin.platform.ui.wiget.YlTextView
+            android:id="@+id/yl_tv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="网络调皮了!\n轻触刷新"
+            android:textColor="@color/c_5"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yl_layout_network_error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <cn.youlin.platform.ui.wiget.YlImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/bg_reload" />
+
+    <cn.youlin.platform.ui.wiget.YlTextView
+        android:id="@+id/yl_tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="网络调皮了!\n轻触刷新"
+        android:textColor="#d7d7d5"
+        android:textSize="15dp" />
+
+</LinearLayout>

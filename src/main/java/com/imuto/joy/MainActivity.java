@@ -9,9 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.imuto.joy.DragHelper.DragHelperPage;
 import com.imuto.joy.base.AbsRecyclerAdapter;
 import com.imuto.joy.base.BaseActivity;
+import com.imuto.joy.drag.DragHelperPage;
+import com.imuto.joy.tipPage.TipsPage;
 
 import java.util.ArrayList;
 
@@ -57,7 +58,9 @@ public class MainActivity extends BaseActivity {
 
 		ArrayList<Item> data = new ArrayList<>();
 		Item item = new Item("拖拽子View", DragHelperPage.class);
+		Item item2 = new Item("提示信息等", TipsPage.class);
 		data.add(item);
+		data.add(item2);
 
 		adapter.setDataSet(data);
 		adapter.notifyDataSetChanged();
