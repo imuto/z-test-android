@@ -2,4 +2,5 @@
 <resources>
     <color name="yl_background">#EEEEEE</color>
     <color name="c_5">#d7d7d5</color>
+    <color name="transparent">#00000000</color>
 </resources>
