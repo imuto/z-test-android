@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.imuto.joy.drag.VDHLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#aa885555"
+        android:gravity="center"
+        android:text="测试1"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#aa885555"
+        android:gravity="center"
+        android:text="测试2"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#aa885555"
+        android:gravity="center"
+        android:text="测试3"
+        />
+
+
+</com.imuto.joy.drag.VDHLayout>
